@@ -6,11 +6,11 @@ class TdTui < Formula
   on_macos do
     on_arm do
       url "https://github.com/voioo/td/releases/download/v0.2.56/td_darwin_arm64.tar.gz"
-      sha256 "fbb2e2c0c7bdde1cc3bf2c136441b96f5e70c9da4e9c50a675bd128287ce5532"
+      sha256 "c87772224c315fbf7b7f05746afde5ae39afe4a10a1ba13cb18ac74cd1be5cf8"
     end
     on_intel do
       url "https://github.com/voioo/td/releases/download/v0.2.56/td_darwin_amd64.tar.gz"
-      sha256 "64bf981ef1f5e7865bd6ebec0406aff12a025e08610e09a41d509d0e0bf55b6f"
+      sha256 "4b57bb95e7cdb3306ec2ff5629836f552f6ddf81ab48e858d5ec93c54a752f89"
     end
   end
   
