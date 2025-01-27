@@ -1,16 +1,16 @@
 class TdTui < Formula
   desc "Simple task management TUI tool"
   homepage "https://github.com/voioo/td"
-  version "0.2.57"
+  version "0.2.58"
   
   on_macos do
     on_arm do
-      url "https://github.com/voioo/td/releases/download/v0.2.57/td_darwin_arm64.tar.gz"
-      sha256 "084015c159d746b9075e1041a1bf5e22d1ccd27f04a7578c0e777e73518efcb7"
+      url "https://github.com/voioo/td/releases/download/v0.2.58/td_darwin_arm64.tar.gz"
+      sha256 "b5cc019f2f3f61bd7676e984a6a46aac65ca24fff7cc04d759e5013fb7a67083"
     end
     on_intel do
-      url "https://github.com/voioo/td/releases/download/v0.2.57/td_darwin_amd64.tar.gz"
-      sha256 "371a4caee94b0403eb8325bc2d444d094b7fd7e9d681f0ae5c05570d3f7369c1"
+      url "https://github.com/voioo/td/releases/download/v0.2.58/td_darwin_amd64.tar.gz"
+      sha256 "bd6de5bc0f1960801a8fc5379f9f9ec6cd90534451a42452d01ee6d603ef1b0b"
     end
   end
   
